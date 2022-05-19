@@ -39,6 +39,7 @@ const cartSlice = createSlice({
     },
   },
 })
+console.log("food")
 export const cartActions = cartSlice.actions
 export const cartReducer = cartSlice.reducer
 export default cartSlice
